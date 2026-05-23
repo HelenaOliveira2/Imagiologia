@@ -1,0 +1,25 @@
+# Ambientes Virtuais
+venv/
+env/
+.env
+
+# Jupyter e Python
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Dataset e Dados (MUITO IMPORTANTE NÃO FAZER COMMIT)
+data/
+*.zip
+*.tar.gz
+*.csv
+
+# Ferramentas e IDEs
+.vscode/
+.idea/
+.DS_Store
+
+# Logs e Tracking de Modelos
+wandb/
+mlruns/
+*.log
