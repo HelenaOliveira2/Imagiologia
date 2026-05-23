@@ -8,3 +8,8 @@ torch
 torchvision
 jupyter
 tqdm
+albumentations
+monai
+torchmetrics
+livelossplot
+timm
