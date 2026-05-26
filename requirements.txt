@@ -13,3 +13,4 @@ monai
 torchmetrics
 livelossplot
 timm
+wandb
