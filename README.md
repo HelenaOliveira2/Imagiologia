@@ -1,4 +1,4 @@
-# MIQR-CC ERCP Image Classification (Fase 3 & 4)
+# MIQR-CC ERCP Image Classification
 
 Este repositório contém o pipeline completo para o desenvolvimento, treino, avaliação e interpretabilidade de modelos de Deep Learning para a classificação de imagens de CPRE (Colangiopancreatografia Retrógrada Endoscópica) no dataset **MIQR-CC**.
 
@@ -32,7 +32,7 @@ O objetivo do projeto é classificar as imagens em 4 classes clínicas principai
 
 ---
 
-## 🛠️ Configuração do Ambiente de Execução
+##  Configuração do Ambiente de Execução
 
 Recomenda-se a utilização de um ambiente virtual Python (`venv`) para garantir a consistência das dependências.
 
@@ -63,7 +63,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🚀 Fluxo de Execução dos Notebooks
+##  Fluxo de Execução dos Notebooks
 
 Os notebooks devem ser executados na seguinte ordem sequencial:
 
@@ -86,7 +86,7 @@ Os notebooks devem ser executados na seguinte ordem sequencial:
 
 ---
 
-## 📊 Monitorização de Experiências (WandB)
+##  Monitorização de Experiências (WandB)
 
 Todos os treinos e avaliações estão integrados com o **Weights & Biases (WandB)**. Para sincronizar as experiências no workspace de equipa partilhado:
 
@@ -103,7 +103,7 @@ Todos os treinos e avaliações estão integrados com o **Weights & Biases (Wand
 
 ---
 
-## 🔍 Métricas e Interpretabilidade (Fase 4)
+## Métricas e Interpretabilidade 
 
 Cada notebook de treino contém as seguintes validações e saídas:
 * **Métricas Robustas:** Matriz de Confusão, F1-Score Macro e Curva AUC-ROC calculadas diretamente no conjunto de teste independente.
